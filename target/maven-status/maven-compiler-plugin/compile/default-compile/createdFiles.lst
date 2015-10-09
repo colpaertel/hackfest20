@@ -1,0 +1,11 @@
+com\hackfest\temperature\api\generated\Wishlist$DescriptionOneOfDeserializer.class
+com\hackfest\temperature\api\generated\Detail.class
+com\hackfest\temperature\api\generated\Wishlist.class
+com\hackfest\temperature\api\generated\ApiFeature.class
+com\hackfest\temperature\api\generated\Error.class
+com\hackfest\temperature\api\generated\YaasAwareParameters.class
+com\hackfest\temperature\api\generated\WishlistsResource.class
+com\hackfest\temperature\api\generated\util\OneOfDeserializerUtility.class
+com\hackfest\temperature\api\generated\DefaultWishlistsResource.class
+com\hackfest\temperature\JerseyApplication.class
+com\hackfest\temperature\api\generated\WishlistItem.class

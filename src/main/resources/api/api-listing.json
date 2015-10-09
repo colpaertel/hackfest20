@@ -1,0 +1,14 @@
+{
+    "name": "hybris Service",
+    "references":[
+        {
+            "namespace": "api",
+            "description": "API definition of temperature",
+            "path": "/",
+            "type": "raml",
+            "fileName": "temperature.raml",
+            "packageName": "com.hackfest.temperature.api.generated",
+            "async": false
+        }
+    ]
+}
