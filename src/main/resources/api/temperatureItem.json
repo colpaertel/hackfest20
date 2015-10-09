@@ -1,29 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "Wishlist Item",
+  "title": "Temperature Item",
   "type" : "object",
   "properties":
   {
-    "product":
-    {
-      "type":"string",
-      "pattern":"^.+"
-    },
-    "amount":
-    {
-      "type":"integer",
-      "minimum":1,
-      "default":1
-    },
-    "note":
+    "id":
     {
       "type":"string"
     },
-    "createdAt":
+    "temperature":
     {
-      "type":"string",
-      "format":"date-time"
+      "type":"integer"
     }
   },
-  "required":["product", "amount"]
+  "required":["id", "temperature"]
 }

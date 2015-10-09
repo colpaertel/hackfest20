@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Temperature Item",
+  "type" : "object",
+  "properties":
+  {
+    "id":
+    {
+      "type":"string"
+    },
+    "temperature":
+    {
+      "type":"integer"
+    }
+  },
+  "required":["id", "temperature"]
+}

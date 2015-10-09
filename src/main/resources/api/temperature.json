@@ -10,8 +10,8 @@
     },
     "temperature":
     {
-      "type":"string"
+      "type":"integer"
     }
   },
-  "required":["id","temperatureInCelcius"]
+  "required":["id","temperature"]
 }
