@@ -11,6 +11,9 @@
  */
 package com.hackfest.temperature.api.generated;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.inject.Singleton;
 import javax.ws.rs.core.Response;
 
@@ -31,8 +34,39 @@ public class DefaultProductsResource implements com.hackfest.temperature.api.gen
 	public Response get(final YaasAwareParameters yaasAware)
 	{
 		// place some logic here
+		List<Product> products = getDemoProducts();
 		return Response.ok()
-			.entity(new java.util.ArrayList<Product>()).build();
+			.entity(products).build();
+	}
+
+	private List<Product> getDemoProducts() {
+		List<Product> products = new ArrayList<Product>(5);
+		Product p1 = new Product();
+		p1.setId("1");
+		p1.setSummer(true);
+		p1.setDescription("Tanktop");
+		Product p2= new Product();
+		p2.setId("2");
+		p2.setSummer(true);
+		p2.setDescription("Bikini");
+		Product p3= new Product();
+		p3.setId("3");
+		p3.setSummer(false);
+		p3.setDescription("Hat");
+		Product p4= new Product();
+		p4.setId("4");
+		p4.setSummer(false);
+		p4.setDescription("Scarf");
+		Product p5= new Product();
+		p5.setId("5");
+		p5.setSummer(false);
+		p5.setDescription("Hand gloves");
+		products.add(p1);
+		products.add(p2);
+		products.add(p3);
+		products.add(p4);
+		products.add(p5);
+		return products;
 	}
 
 	/* POST / */
@@ -48,7 +82,13 @@ public class DefaultProductsResource implements com.hackfest.temperature.api.gen
 	@Override
 	public Response getByProductId(final YaasAwareParameters yaasAware, final java.lang.String productId)
 	{
-		// place some logic here
+		for (Product product : getDemoProducts()) {
+			if(product.getId().equalsIgnoreCase(productId))
+			{
+				return Response.ok()
+						.entity(product).build();
+			}
+		}
 		return Response.ok()
 			.entity(new Product()).build();
 	}

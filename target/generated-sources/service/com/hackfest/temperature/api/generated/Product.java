@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Generated dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Fri Oct 09 21:46:49 CEST 2015")
+@javax.annotation.Generated(value = "hybris", date = "Fri Oct 09 22:06:15 CEST 2015")
 @XmlRootElement
 @JsonAutoDetect(isGetterVisibility = Visibility.NONE, getterVisibility = Visibility.NONE, setterVisibility = Visibility.NONE,
 		creatorVisibility = Visibility.NONE, fieldVisibility = Visibility.NONE)
@@ -31,7 +31,7 @@ public class Product
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="description")
 	@javax.validation.constraints.NotNull
-	private java.lang.Integer _description;
+	private java.lang.String _description;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="summer")
 	private java.lang.Boolean _summer;
@@ -41,7 +41,7 @@ public class Product
 		return _id;
 	}
 	
-	public java.lang.Integer getDescription()
+	public java.lang.String getDescription()
 	{
 		return _description;
 	}
@@ -56,7 +56,7 @@ public class Product
 		this._id = _id;
 	}
 
-	public void setDescription(final java.lang.Integer _description)
+	public void setDescription(final java.lang.String _description)
 	{
 		this._description = _description;
 	}

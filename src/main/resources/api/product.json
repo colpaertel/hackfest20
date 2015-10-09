@@ -10,7 +10,7 @@
     },
     "description":
     {
-      "type":"integer"
+      "type":"string"
     },
     "summer":
     {

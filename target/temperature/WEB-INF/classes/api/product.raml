@@ -7,7 +7,6 @@ mediaType:  application/json
 schemas:
   - products: !include products.json
   - product: !include product.json
-  - productItem: !include productItem.json
   - error: !include https://api.yaas.io/patterns/v1/schema-error-message.json
 
 traits: 
@@ -39,7 +38,7 @@ resourceTypes:
     uriParameters:
       productId:
         description: the id of the product to work on
-        example: 784hti8ey
+        example: 1
         type: string
     get:
       description: Gets a product

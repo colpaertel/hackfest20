@@ -1,61 +1,201 @@
 [{
   "id": 1,
-  "temperature": 0
+  "description": "Isoniazid",
+  "summer": true
 }, {
   "id": 2,
-  "temperature": -8
+  "description": "ESOPINIO JEWEL",
+  "summer": false
 }, {
   "id": 3,
-  "temperature": 13
+  "description": "Kool Comfort Pain Relieving Roll-On",
+  "summer": false
 }, {
   "id": 4,
-  "temperature": 22
+  "description": "Medique Pain Off",
+  "summer": true
 }, {
   "id": 5,
-  "temperature": 29
+  "description": "Desloratadine",
+  "summer": false
 }, {
   "id": 6,
-  "temperature": 14
+  "description": "Oxygen",
+  "summer": true
 }, {
   "id": 7,
-  "temperature": -10
+  "description": "Allergy Complete Relief",
+  "summer": true
 }, {
   "id": 8,
-  "temperature": 18
+  "description": "Penicillin V Potassium",
+  "summer": true
 }, {
   "id": 9,
-  "temperature": 27
+  "description": "BAUME PRODIGIEUX LEVRES 03 SHIMMERING CHOCOLATE",
+  "summer": false
 }, {
   "id": 10,
-  "temperature": 13
+  "description": "Treatment Set TS336683",
+  "summer": false
 }, {
   "id": 11,
-  "temperature": 5
+  "description": "Body Luxuries Dahlia Blossom Scented Waterless Anti Bacterial Hand gel",
+  "summer": true
 }, {
   "id": 12,
-  "temperature": 26
+  "description": "Doxycycline Hyclate",
+  "summer": false
 }, {
   "id": 13,
-  "temperature": 6
+  "description": "ORIGINAL HEALING",
+  "summer": true
 }, {
   "id": 14,
-  "temperature": 32
+  "description": "Frankie Avalons ZERO PAIN Original Formula Roll-On Maximum Strength PAIN RELIEVER",
+  "summer": false
 }, {
   "id": 15,
-  "temperature": 6
+  "description": "Rimmel London",
+  "summer": true
 }, {
   "id": 16,
-  "temperature": 32
+  "description": "risperidone",
+  "summer": true
 }, {
   "id": 17,
-  "temperature": -8
+  "description": "Lingerie De Peau BB Beauty Booster Invisible Skin-Fusion Multi-Perfecting Makeup With Sunscreen Broad Spectrum SPF 30 MEDIUM",
+  "summer": false
 }, {
   "id": 18,
-  "temperature": 2
+  "description": "CareOne Antacid",
+  "summer": false
 }, {
   "id": 19,
-  "temperature": 6
+  "description": "METHADONE HYDROCHLORIDE",
+  "summer": false
 }, {
   "id": 20,
-  "temperature": 32
+  "description": "Hydrocodone Bitartrate And Acetaminophen",
+  "summer": false
+}, {
+  "id": 21,
+  "description": "Amoxicillin",
+  "summer": false
+}, {
+  "id": 22,
+  "description": "Risperidone",
+  "summer": false
+}, {
+  "id": 23,
+  "description": "Escitalopram",
+  "summer": true
+}, {
+  "id": 24,
+  "description": "Pollens - Trees, Birch Mix",
+  "summer": true
+}, {
+  "id": 25,
+  "description": "Sinus Buster Mild Formula",
+  "summer": true
+}, {
+  "id": 26,
+  "description": "Cubicin",
+  "summer": false
+}, {
+  "id": 27,
+  "description": "ArthriPain Relief",
+  "summer": true
+}, {
+  "id": 28,
+  "description": "Atenolol and Chlorthalidone",
+  "summer": true
+}, {
+  "id": 29,
+  "description": "Strattera",
+  "summer": false
+}, {
+  "id": 30,
+  "description": "Clarithromycin",
+  "summer": false
+}, {
+  "id": 31,
+  "description": "Ibuprofen",
+  "summer": true
+}, {
+  "id": 32,
+  "description": "Head and Shoulders 2in1",
+  "summer": true
+}, {
+  "id": 33,
+  "description": "Standardized Grass Pollen, Timothy",
+  "summer": true
+}, {
+  "id": 34,
+  "description": "Pain Reliever",
+  "summer": false
+}, {
+  "id": 35,
+  "description": "Prazolamine",
+  "summer": false
+}, {
+  "id": 36,
+  "description": "Guaifenesin",
+  "summer": true
+}, {
+  "id": 37,
+  "description": "Lansoprazole",
+  "summer": true
+}, {
+  "id": 38,
+  "description": "Captopril",
+  "summer": true
+}, {
+  "id": 39,
+  "description": "care one pain relief",
+  "summer": false
+}, {
+  "id": 40,
+  "description": "Hydralazine Hydrochloride",
+  "summer": false
+}, {
+  "id": 41,
+  "description": "Uniphyl",
+  "summer": false
+}, {
+  "id": 42,
+  "description": "Tussin Cough",
+  "summer": true
+}, {
+  "id": 43,
+  "description": "Clotrimazole",
+  "summer": true
+}, {
+  "id": 44,
+  "description": "ADSOL Red Cell Preservation Solution System in Plastic Container (PL 146 Plastic)",
+  "summer": true
+}, {
+  "id": 45,
+  "description": "Telmisartan",
+  "summer": false
+}, {
+  "id": 46,
+  "description": "Triaminic",
+  "summer": false
+}, {
+  "id": 47,
+  "description": "Perdiem",
+  "summer": true
+}, {
+  "id": 48,
+  "description": "Molds, Rusts and Smuts, Penicillium notatum",
+  "summer": false
+}, {
+  "id": 49,
+  "description": "HAND SANITIZING",
+  "summer": true
+}, {
+  "id": 50,
+  "description": "Piroxicam",
+  "summer": false
 }]
