@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: temperature
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: colpaertel
+Implementation-Vendor-Id: com.hackfest.temperature
+Build-Time: 
+Build-Jdk: 1.8.0_45
+Implementation-URL: http://yaas.io/temperature
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: SAP SE
+

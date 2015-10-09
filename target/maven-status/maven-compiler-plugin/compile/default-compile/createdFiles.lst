@@ -1,9 +1,9 @@
 com\hackfest\temperature\api\generated\Detail.class
-com\hackfest\temperature\api\generated\TemperaturesResource.class
+com\hackfest\temperature\api\generated\ProductItem.class
 com\hackfest\temperature\api\generated\ApiFeature.class
-com\hackfest\temperature\api\generated\DefaultTemperaturesResource.class
+com\hackfest\temperature\api\generated\ProductsResource.class
 com\hackfest\temperature\api\generated\Error.class
 com\hackfest\temperature\api\generated\YaasAwareParameters.class
-com\hackfest\temperature\api\generated\Temperature.class
+com\hackfest\temperature\api\generated\DefaultProductsResource.class
+com\hackfest\temperature\api\generated\Product.class
 com\hackfest\temperature\JerseyApplication.class
-com\hackfest\temperature\api\generated\TemperatureItem.class

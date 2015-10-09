@@ -22,7 +22,7 @@ public class ApiFeature implements Feature
 	@Override
 	public boolean configure(final FeatureContext context)
 	{
-		context.register(DefaultTemperaturesResource.class);
+		context.register(DefaultProductsResource.class);
 		return true;
 	}
 }
